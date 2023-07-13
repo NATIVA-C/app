@@ -33,12 +33,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
     "jest": "^27.0.5",
-    "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
     "stylus": "^0.55.0",
     "stylus-loader": "^6.1.0"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
   }
 }
