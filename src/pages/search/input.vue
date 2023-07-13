@@ -63,7 +63,7 @@ export default {
         },
         async submit() {
             var p1 = _fileObj.name
-            var url = 'http://localhost:3000/nativaRoute/search/'+p1+'/aa/dd'
+            var url = 'http://localhost:3000/nativaRoute/read/Amazon/'+p1+'/xxxx'
             // 配置url参数
             // let _formDate = new FormData();
             // _formDate.append("file", _fileObj);
