@@ -3,12 +3,14 @@
         <div class="input-search1">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Amazon</button>
+            <b>Amazon</b>
             <a>展示:{{ detail }}</a>
         </div>
 
         <div class="input-serach2">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Microsoft</button>
+            <b>Microsoft</b>
             <a>展示:{{ detail }}</a>
         </div>
 
@@ -61,9 +63,16 @@ export default {
             let file = e.target.files[0]
             _fileObj = file;
         },
-        async submit() {
+        async submit($event) {
+
+            // 获取下一个<a>元素
+            const nextSibling = $event.target.nextElementSibling;
+            // 获取下一个<a>元素的文本内容
+            const text = nextSibling.innerText;
+            // 在这里使用下一个<a>元素的文本内容（"Microsoft"）
+            console.log(text);
             var p1 = _fileObj.name
-            var url = 'http://localhost:3000/nativaRoute/read/Amazon/'+p1+'/xxxx'
+            var url = 'http://localhost:3000/nativaRoute/read/' + text + '/' + p1 + '/xxxx'
             // 配置url参数
             // let _formDate = new FormData();
             // _formDate.append("file", _fileObj);
