@@ -9,31 +9,37 @@
         <div class="input-serach2">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Microsoft</button>
+            <a>展示:{{ detail }}</a>
         </div>
 
         <div class="input-serach3">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">LPI</button>
+            <a>展示:{{ detail }}</a>
         </div>
 
         <div class="input-serach4">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Cisco</button>
+            <a>展示:{{ detail }}</a>
         </div>
 
         <div class="input-serach5">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">CompTIA</button>
+            <a>展示:{{ detail }}</a>
         </div>
 
         <div class="input-serach6">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Google</button>
+            <a>展示:{{ detail }}</a>
         </div>
 
         <div class="input-serach7">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Oracle</button>
+            <a>展示:{{ detail }}</a>
         </div>
     </div>
 </template>
