@@ -15,26 +15,46 @@
         <div class="input-serach3">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">LPI</button>
+            <b>LPI</b>
         </div>
 
         <div class="input-serach4">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Cisco</button>
+            <b>Cisco</b>
         </div>
 
         <div class="input-serach5">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">CompTIA</button>
+            <b>CompTIA</b>
         </div>
 
         <div class="input-serach6">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Google</button>
+            <b>Google</b>
         </div>
 
         <div class="input-serach7">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Oracle</button>
+            <b>Oracle</b>
+        </div>
+        <div class="input-serach7">
+            <input type="file" name="file" @change="fileChange" />
+            <button @click="submit">Salesforce</button>
+            <b>Salesforce</b>
+        </div>
+        <div class="input-serach7">
+            <input type="file" name="file" @change="fileChange" />
+            <button @click="submit">ServiceNow</button>
+            <b>ServiceNow</b>
+        </div>
+        <div class="input-serach7">
+            <input type="file" name="file" @change="fileChange" />
+            <button @click="submit">CKA</button>
+            <b>CKA</b>
         </div>
     </div>
 </template>
