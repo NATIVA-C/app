@@ -111,7 +111,7 @@ export default {
     padding auto;
 }
 .input-search{
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 .text-b{
     margin-left: 20px;
