@@ -1,60 +1,60 @@
 <template>
     <div class="search">
-        <div class="input-search1">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
-            <button @click="submit">Amazon</button>
-            <b>Amazon</b>
+            <button  class="bnt" @click="submit">Amazon</button>
+            <b class="text-b">Amazon</b>
         </div>
 
-        <div class="input-serach2">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Microsoft</button>
-            <b>Microsoft</b>
+            <b class="text-b">Microsoft</b>
         </div>
 
-        <div class="input-serach3">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">LPI</button>
-            <b>LPI</b>
+            <b class="text-b">LPI</b>
         </div>
 
-        <div class="input-serach4">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Cisco</button>
-            <b>Cisco</b>
+            <b class="text-b">Cisco</b>
         </div>
 
-        <div class="input-serach5">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">CompTIA</button>
-            <b>CompTIA</b>
+            <b class="text-b">CompTIA</b>
         </div>
 
-        <div class="input-serach6">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Google</button>
-            <b>Google</b>
+            <b class="text-b">Google</b>
         </div>
 
-        <div class="input-serach7">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Oracle</button>
-            <b>Oracle</b>
+            <b class="text-b">Oracle</b>
         </div>
-        <div class="input-serach7">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">Salesforce</button>
-            <b>Salesforce</b>
+            <b class="text-b">Salesforce</b>
         </div>
-        <div class="input-serach7">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">ServiceNow</button>
-            <b>ServiceNow</b>
+            <b class="text-b">ServiceNow</b>
         </div>
-        <div class="input-serach7">
+        <div class="input-search">
             <input type="file" name="file" @change="fileChange" />
             <button @click="submit">CKA</button>
-            <b>CKA</b>
+            <b class="text-b">CKA</b>
         </div>
     </div>
 </template>
@@ -106,7 +106,14 @@ export default {
 
 
 <style scoped lang="stylus">
-.search {
-    line-height:50px;
+
+.bnt{
+    padding auto;
+}
+.input-search{
+    margin-bottom: 11px;
+}
+.text-b{
+    margin-left: 20px;
 }
 </style>
